@@ -43,9 +43,9 @@ function App() {
           <button id='btn1'className='+' onClick={handleclick}>+</button>
         </div>
         <div>
-          <button id='btn1' className='1' onClick={handleclick}>3</button>
+          <button id='btn1' className='1' onClick={handleclick}>1</button>
           <button id='btn1' className='2' onClick={handleclick}>2</button>
-          <button id='btn1' className='3' onClick={handleclick}>1</button>
+          <button id='btn1' className='3' onClick={handleclick}>3</button>
           
           <button id='btn1' className='*' onClick={handleclick}>x</button>
         </div>
