@@ -20,39 +20,43 @@ function App() {
     setresult(result.slice(0,-1))
   }
   return (
-    <div>
+     <div>
+       <h3 id='cal'>CALCULATOR IN REACT JS </h3>
+    <div className='COm'>
       
-      <h3 style={{color:"rebeccapurple"}}>CALCULATOR IN REACT.js  </h3>
-
-      <div style={{ border: "2px solid red", width: "200px" }}>
+      <div>
         <form>
           <div>
-            <input style={{ width: "100px" }} type="text" value={result} ref={inputref} ></input>
+            <input id='input1' type="text" value={result} ref={inputref} ></input>
           </div>
         </form>
-        <div>
-          <button className='7' onClick={handleclick}>7</button>
-          <button className='8' onClick={handleclick}>8</button>
-          <button className='9' onClick={handleclick}>9</button>
-          <button className='+' onClick={handleclick}>+</button>
+        <div >
+          <button id='btn1'  className='7' onClick={handleclick}>7</button>
+          <button id='btn1' className='8' onClick={handleclick}>8</button>
+          <button id='btn1'className='9' onClick={handleclick}>9</button>
+          <button id='btn1'className='-' onClick={handleclick}>-</button>
+        </div>
+        <div >
+          <button id='btn1'className='4' onClick={handleclick}>4</button>
+          <button id='btn1' className='5' onClick={handleclick}>5</button>
+          <button id='btn1' className='6' onClick={handleclick}>6</button>
+          <button id='btn1'className='+' onClick={handleclick}>+</button>
         </div>
         <div>
-          <button className='4' onClick={handleclick}>6</button>
-          <button className='5' onClick={handleclick}>5</button>
-          <button className='6' onClick={handleclick}>4</button>
-          <button className='-' onClick={handleclick}>-</button>
+          <button id='btn1' className='1' onClick={handleclick}>3</button>
+          <button id='btn1' className='2' onClick={handleclick}>2</button>
+          <button id='btn1' className='3' onClick={handleclick}>1</button>
+          
+          <button id='btn1' className='*' onClick={handleclick}>x</button>
         </div>
-        <div>
-          <button className='3' onClick={handleclick}>3</button>
-          <button className='2' onClick={handleclick}>2</button>
-          <button className='1' onClick={handleclick}>1</button>
-          <button className='*' onClick={handleclick}>*</button>
-        </div>
-        <button onClick={clearAll}>clear</button>
-        <button className='/' onClick={handleclick}>/</button>
-        <button onClick={action}>result</button>
-        <button onClick={deletOneByOne} > c</button>
+      
+        <button id='btn1' className='/' onClick={handleclick}>/</button>
+        <button id='btn1' className='0' onClick={handleclick}>0</button>
+        <button id='btn1' onClick={action}>=</button>
+        <button id='btn1' onClick={deletOneByOne} > c</button>
+        <button id='btn2' onClick={clearAll}>RESET ALL</button>
       </div>
+    </div>
     </div>
   )
 }

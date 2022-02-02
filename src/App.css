@@ -1,3 +1,42 @@
-.calc{
- border: 2px solid red;
+#input1{
+    display: flexbox;
+     height: 40px;
+    width: 273px;
+    font-size:x-large;
+    
+    background-color: azure;
+    font-weight: bold;
+    display: flexbox;
+  
+
+}
+.COm{
+    margin: auto;
+    margin-top: 100px;
+    border-radius:6px ;
+    border: 2px solid black;
+    width: 280px;
+    background-color: aqua;
+}
+#btn1{
+    background-color: #333;
+    height: 60px;
+    width: 70px;
+    font-size:x-large;
+    color: aliceblue;
+    float: left;
+}
+#btn2{
+    background-color: #333;
+    height: 60px;
+    width: 280px;
+    font-size:xx-large;
+    color: aliceblue;
+    float: left;
+}
+#cal{
+    border: 2px solid red;
+    width: 250px;
+    float: inline-end;
+    
 }
